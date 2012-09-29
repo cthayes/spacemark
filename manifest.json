@@ -1,0 +1,11 @@
+﻿{
+  "name": "Spacemark: your bookmark workspace",
+  "version": "0.2",
+  "description": "This extension is a workspace manager allowing you to view different bookmarks in your bookmarks bar.",
+  "browser_action": {
+    "default_icon": "spacemark_19.png",
+    "default_title": "Switch Workspaces",
+	"popup": "list.html"
+  },
+  "permissions": ["bookmarks"]
+}
